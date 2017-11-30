@@ -6,7 +6,7 @@
     <groupId>com.github.marsor707</groupId>
     <artifactId>vshop_backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <name>vshop_backend</name>
     <description>Demo project for Spring Boot</description>
@@ -36,10 +36,10 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-tomcat</artifactId>
-        </dependency>
+        <!--<dependency>-->
+        <!--<groupId>org.springframework.boot</groupId>-->
+        <!--<artifactId>spring-boot-starter-tomcat</artifactId>-->
+        <!--</dependency>-->
     </dependencies>
 
     <build>
